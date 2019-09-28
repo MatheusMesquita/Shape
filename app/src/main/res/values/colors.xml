@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FAFAFA</color>
+    <color name="colorPrimaryDark">#E0E0E0</color>
+    <color name="colorAccent">#212121</color>
+
+    <color name="temperature1">#60C69F</color>
+    <color name="temperature2">#B5DEBC</color>
+    <color name="temperature3">#4DA2C9</color>
+    <color name="temperature4">#EACC0A</color>
+    <color name="temperature5">#B59463</color>
+</resources>
