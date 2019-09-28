@@ -1,6 +1,6 @@
 package dk.shape.forecast.usecases.places
 
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import dk.shape.forecast.usecases.places.repository.PlacesRepository
 
 /**

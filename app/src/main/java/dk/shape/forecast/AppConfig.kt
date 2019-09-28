@@ -1,6 +1,6 @@
 package dk.shape.forecast
 
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import dk.shape.forecast.api.initHttpClient
 import dk.shape.forecast.api.initWeatherAPI
 import dk.shape.forecast.usecases.places.PlacesConfig

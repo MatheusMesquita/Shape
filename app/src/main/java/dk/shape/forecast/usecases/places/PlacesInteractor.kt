@@ -1,8 +1,8 @@
 package dk.shape.forecast.usecases.places
 
-import android.arch.lifecycle.Lifecycle
-import android.arch.lifecycle.LifecycleObserver
-import android.arch.lifecycle.OnLifecycleEvent
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleObserver
+import androidx.lifecycle.OnLifecycleEvent
 import dk.shape.forecast.entities.Place
 import dk.shape.forecast.usecases.places.repository.PlacesRepository
 

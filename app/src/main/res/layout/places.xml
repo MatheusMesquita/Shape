@@ -7,7 +7,7 @@
     android:animateLayoutChanges="true"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/placesRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -15,7 +15,7 @@
         android:orientation="vertical"
         android:paddingBottom="56dp"
         android:paddingTop="8dp"
-        app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         tools:listitem="@layout/place_item"
         tools:visibility="visible" />
 
@@ -48,7 +48,7 @@
             android:text="@string/places_error_subtitle"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
-        <android.support.v7.widget.AppCompatButton
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/errorRetryButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
